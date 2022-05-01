@@ -1,0 +1,16 @@
+[data-grid-component=vertical_scrollbar] {
+    width: 12px;
+    background-color: rgb(222, 222, 222);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+[data-grid-component=vertical_scrollbar] div {
+    background-color: black;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

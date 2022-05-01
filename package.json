@@ -1,0 +1,28 @@
+{
+  "name": "web-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/webpack-dev-server",
+    "css": "npx sass --watch --style=compressed --no-source-map scss:public/css",
+    "css-all": "npx sass --style=compressed --no-source-map style:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimdol/web-grid.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dimdol/web-grid/issues"
+  },
+  "homepage": "https://github.com/dimdol/web-grid#readme",
+  "devDependencies": {
+    "sass": "^1.51.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

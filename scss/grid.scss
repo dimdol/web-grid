@@ -1,0 +1,40 @@
+[data-grid] {
+    box-sizing: border-box;
+    border: 1px solid rgb(89, 89, 89);
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.grid_header {
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(89, 89, 89);
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    /* width: 700px; */
+    /* margin-bottom: 1rem; */
+}
+
+.grid_body {
+    display: grid;
+    /* border: 1px solid rgb(89, 89, 89); */
+    border-top: 0;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    /* width: 700px; */
+    overflow: hidden;
+    height: 300px;
+}
+
+span {
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    display: inline-block;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    min-height: 20px;
+}
+
+.grid_header span {
+    border-bottom: 0;
+}
