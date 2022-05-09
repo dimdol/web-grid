@@ -13,7 +13,7 @@ for (let i = 0; i < 8; i++) {
         name: `Column ${i}`,
     });
 }
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 100; i++) {
     option.data.push({
         id_0: `1 Data ${i}`,
         id_1: `2 Data ${i}`,
